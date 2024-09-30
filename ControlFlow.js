@@ -50,12 +50,12 @@ if (plantCount < 0.5 * maxPlants) {
 //Part 2 
 let Plant = 100;
 const week10 = 10;
-let space = 0.8
+
 
 
 plantCount = Plant * (2 ** week10);
 
-let radiusFormula = plantCount * space
+let radiusFormula = plantCount * plantSpace
 
 
 let radiusGarden = Math.sqrt(radiusFormula / PI)
